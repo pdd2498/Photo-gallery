@@ -1,0 +1,70 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+li{
+    height: 320px;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+.imags{
+    width: 100%;
+    height: 265px;
+    object-fit: contain;
+}
+.youno{
+    margin: 7px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.more{
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: aquamarine;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#more{
+    margin: 50px;
+}
+#input{
+    width: 50vw;
+    height: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    border-style: none;
+    background-color: rgb(157, 184, 184);
+    text-align: center;
+    font-weight: 500;
+    font-size: medium;
+}
+#button{
+    font-weight: bolder;
+    font-size: medium;
+    padding: 7px 15px;
+    border-radius: 7px;
+    border-style: none;
+    background-color: aquamarine;
+    cursor: pointer;
+}
