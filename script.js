@@ -54,7 +54,7 @@ function printData(data){
     itm.innerHTML = "";
     const more = document.createElement('span');
     more.className = 'more'
-    more.innerText = 'Lode more'
+    more.innerText = 'Show more'
     itm.append(more);
     
     itm.addEventListener("click" , (e)=>{
